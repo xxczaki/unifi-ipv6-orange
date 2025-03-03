@@ -1,3 +1,11 @@
+![Physical setup preview](https://github.com/user-attachments/assets/890a98d9-1e97-4f5e-9237-230b9fc6d641)
+
+## Problem
+
+- Polish ISP (Orange) provides separate PPPoE credentials for IPv4 and IPv6
+- Ubiquiti only allows one PPPoE session per physical WAN port
+  - therefore, entry-level Unifi Express won't work
+
 # Guide
 
 1. Configure two WANs – one for IPv4 and the other for IPv6, using the PPPoE credentials from Neostrada
